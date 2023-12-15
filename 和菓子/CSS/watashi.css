@@ -1,0 +1,341 @@
+
+ body {
+  /* max-width: 100%; */
+  background-color: #e6e2d7;
+  font-family: 'Noto serif JP', serif;
+  margin: 0;
+}
+
+.wagashi-header {
+width: 100%;
+/* padding: 30px; */
+background-color: #000;
+
+}
+
+.wagashi-header-sosaku {
+  font-size: 30px;
+  margin-right: 50px;
+  margin-left: 30px;
+  writing-mode: vertical-rl;
+}
+
+.soskaku-nav {
+  display: flex;
+  justify-content: right;
+  background-color: #000;
+  color: white;
+}
+
+.sosaku-nav-main {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.sosaku-nav-list {
+  writing-mode: vertical-rl;
+  list-style: none;
+  padding: 0 20px 10px 0;
+}
+
+.sosaku-nav-list a {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+
+
+.wagashi-header-img {
+width: 100%;
+text-align: center;
+
+}
+
+.wagashi-header-img img {
+  width: 100%;
+}
+
+.online-content {
+  width: 50px;
+  padding: 8px;
+  text-align: center;
+  background-color: #ffffff33;
+}
+
+.online-content a {
+  color: white;
+border: solid white 1px;
+writing-mode: vertical-rl;
+padding: 10px;
+text-decoration: none;
+background-color: #ffffff33;
+}
+
+
+#info-main {
+  /* max-width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #e6e2d7;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  margin: 0;
+}
+
+    
+.info-content {
+  display: flex;
+  flex-direction: column;
+  writing-mode: vertical-rl;
+  padding: 0 10px 0 10px;
+  margin: 0 20px 0 70px;
+}
+
+.info-news {
+font-size: 14px;
+}
+
+.info-oshirase {
+font-size: 36px;
+}
+
+.info-list {
+  writing-mode: vertical-rl;
+  text-align: left;
+  margin-top: 100px;
+}
+
+.info-list-main {
+  border-left: 1px solid #000;
+}
+
+.info-list-main-content {
+  border-right: solid #000 1px ;
+  padding-right: 30px;
+  padding-left: 5px;
+}
+
+.info-title {
+  padding-left: 30px;
+}
+
+#product-main {
+  width: 100%;
+}
+
+.proudct-explain {
+  width: 100%;
+display: flex;
+flex-direction: row-reverse;
+background-color: #e6e2d7;
+margin: 0 auto;
+}
+
+.create {
+  display: block;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  background-color: #e6e2d7;
+  padding: 0 30px 0 20px;
+}
+
+.create-ja {
+font-size: 36px;
+padding-bottom: 10px;
+}
+
+.create-en {
+
+}
+
+.creat-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #e6e2d7;
+}
+
+
+.create-pic {
+  max-width: 768px;
+  width: 60%;
+  height: 70%;
+}
+
+.create-text {
+  background-color: #e6e2d7;
+  display: flex;
+  justify-content: center;
+}
+
+.text-yellow {
+  position: relative;
+  text-align: center;
+  width: 38%;
+  color: #fff;
+  background-color: #F9E90699;
+  padding: 50px 0;
+  bottom: 100px;
+  font-size: 20px;
+}
+
+.product-explain-2 {
+  display: flex;
+  background-color: #e6e2d7;
+  margin: 0;
+}
+
+.science {
+  justify-content: center;
+  writing-mode: vertical-lr;
+  padding: 0 30px 0 20px;
+
+}
+
+.science-ja {
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+.science-en {
+
+}
+
+.science-img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: #e6e2d7;
+}
+
+.scient-pic {
+  max-width: 768px;
+  width: 60%;
+  height: 70%;
+}
+
+.scient-text {
+  background-color: #e6e2d7;
+  display: flex;
+  justify-content: center;
+}
+
+.text-red {
+  position: relative;
+  text-align: center;
+  width: 38%;
+  color: #fff;
+  background-color: #952A2699;
+  padding: 50px 0;
+  bottom: 100px;
+  font-size: 20px;
+}
+
+  
+  .wagashi-header-online {
+  }
+  
+  
+  main {
+  }
+  
+    
+    #map {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 35vh;
+    }
+    
+    iframe {
+      width: 100%;
+      /* height: 100%; */
+      }
+
+    .footer {
+    }
+    
+    .footer-main {
+      padding: 50px;
+      background-color: #000;
+      margin: 0;
+    }
+    
+    .footer-inner {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      background-color: #000;
+      padding: 20px 0;
+      font-weight: bold;
+    }
+
+    .footer-1 {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    
+        
+    .sosaku {
+      writing-mode: vertical-rl;
+      font-size: 48px;
+      color: #fff;
+      padding-left: 30px;
+    
+    }
+
+    .address {
+      writing-mode: vertical-rl;
+      color: #fff;
+      margin-left: 20px;
+      line-height: 2;
+    }
+
+    .address span {
+      text-orientation: upright;
+    }
+    
+    .sosaku-footer-main-nav {
+      writing-mode: vertical-rl;
+    }
+
+    .sosaku-footer-list {
+      padding: 0 10px 0 10px;
+    }
+    
+    .sosaku-footer-list a {
+      list-style: none;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .footer-online {
+      writing-mode: vertical-rl;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    
+    .footer-online a {
+      list-style: none;
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    .footer-contact a {
+      list-style: none;
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    .footer-sosaku {
+    color: #fff;
+    text-align: center;
+    /* margin-top:  0 0 0; */
+    } 
+    
+    
+*{
+  outline: 2px red solid;
+}
